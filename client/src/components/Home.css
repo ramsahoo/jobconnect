@@ -7,9 +7,14 @@ p {
   .p1, .p3{
     color: #FF6B00;
   }
+
+  .p3 {
+    text-align: center;
+  }
+
   .p4{
-  position: relative; left: -120px;
+  position: relative; left: -100px;
   }
   .p5{
-    position: relative; left: 140px; top: -10px;
+    position: relative; left: 140px;
   }

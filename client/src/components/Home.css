@@ -1,20 +1,20 @@
 p {
     text-align: center;
     position: relative; 
-    top: 90px;
+    top: 100px;
     font-size: xx-large;
+    clear: left;
   }
+  
   .p1, .p3{
     color: #FF6B00;
   }
 
-  .p3 {
-    text-align: center;
+  .p4{
+  position: relative; 
+  left: -100px;
   }
 
-  .p4{
-  position: relative; left: -100px;
-  }
   .p5{
     position: relative; left: 140px;
   }

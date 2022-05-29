@@ -1,11 +1,10 @@
 import React from 'react';
-import '../App.css';
-import Footer from './Footer';
+import './Home.css';
 
 function Home() {
   return (
     <>
-      <Footer />
+      <p>Welcome to your application-free job matching tool</p>
     </>
   );
 }

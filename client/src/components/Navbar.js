@@ -1,7 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 import "./Navbar.css";
 import Logo from "./Logo.png";
-import { Link } from "react-router-dom";
+import { Link, Router } from "react-router-dom";
 
 function Navbar() {
 
@@ -9,7 +9,7 @@ function Navbar() {
     <section className="navbar">
       <img src={Logo} alt="Logo" />
 
-      <nav class="nav_links">
+      <nav className="nav_links">
         <ul>
           <li>
             <Link to='/signup' className="signup">
@@ -22,7 +22,7 @@ function Navbar() {
             </Link>
           </li>
           <li>
-            <Link to='/home' className="home">
+            <Link to='/' className="home">
               Home
             </Link>
           </li>

@@ -7,16 +7,26 @@ function Navbar() {
     <section className="navbar">
       <img src={Logo} alt="Logo" />
 
-
-     <nav class="nav_links">
-    <ul>
-    <li><a href="#">Sign Up</a></li>
-      <li><a href="#">Sign Up</a></li>
-      <li><a href="#">Home</a></li>
-    </ul>
-  </nav>
-     
-  </section>
+      <nav class="nav_links">
+        <ul>
+          <li>
+            <a href="#" className="sign-up">
+              Sign Up
+            </a>
+          </li>
+          <li>
+            <a href="#" className="sign-in">
+              Sign In
+            </a>
+          </li>
+          <li>
+            <a href="#" className="home">
+              Home
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </section>
   );
 }
 

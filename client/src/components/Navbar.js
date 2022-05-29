@@ -1,10 +1,9 @@
 import React, { useState } from "react";
 import "./Navbar.css";
 import Logo from "./Logo.png";
-import { Button } from "./Button";
+import { Link } from "react-router-dom";
 
 function Navbar() {
-  const [button, setButton] = useState(true);
 
   return (
     <section className="navbar">
@@ -13,19 +12,19 @@ function Navbar() {
       <nav class="nav_links">
         <ul>
           <li>
-            <a href="./components/SignUp.js" className="sign-up">
+            <Link to='/signup' className="signup">
               Sign Up
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="./components/SignIn.js" className="sign-in">
+            <Link to='/signin' className="signin">
               Sign In
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#" className="home">
+            <Link to='/home' className="home">
               Home
-            </a>
+            </Link>
           </li>
         </ul>
       </nav>

@@ -1,7 +1,7 @@
 import './SignUp.css';
 
 const InputContainer = ({children}) => {
-  return  <div className="flex flex-col items-start w-80 p-2">
+  return  <div className="signup flex flex-col items-start w-80 p-2">
     {children}
     </div>
 }

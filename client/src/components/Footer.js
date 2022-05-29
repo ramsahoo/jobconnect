@@ -1,26 +1,22 @@
-import React from 'react';
-import './Footer.css';
+import React from "react";
+import "./Footer.css";
 
 function Footer() {
   return (
-    <div className='footer-container'>
-      <div class='footer-links'>
-        <div className='footer-link-wrapper'>
-          <div class='footer-link-items'>
-            <h2>Contact Us</h2>
+    <div className="footer">
+        <div className="links">
+            <a href="https://www.instagram.com">Instagram</a>
           </div>
-        </div>
-        <div className='footer-link-wrapper'>
-          <div class='footer-link-items'>
-            <h2>Social Media</h2>
-            <a to='https://www.instagram.com'>Instagram</a>
-            <a to='https://www.facebook.com'>Facebook</a>
-            <a to='https://www.youtube.com'>Youtube</a>
-            <a to='https://www.twitter.com'>Twitter</a>
+          <div className="links">
+            <a href="https://www.facebook.com">Facebook</a>
           </div>
-        </div>
+          <div className="links">
+            <a href="https://www.youtube.com">Youtube</a>
+          </div>
+          <div className="links">
+            <a href="https://www.twitter.com">Twitter</a>
+          </div>
       </div>
-    </div>
   );
 }
 

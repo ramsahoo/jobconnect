@@ -1,6 +1,5 @@
 import React from "react";
 import "./SignIn.css";
-import Logo from "./Logo.png";
 import Jcppl from "./jcppl.png";
 
 function SignIn() {

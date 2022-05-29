@@ -1,7 +1,8 @@
-import './App.css';
-import Logo from './logo.png';
-function Navbar () {
+import React, { useState } from "react";
+import "./Navbar.css";
+import Logo from "./Logo.png";
 
+function Navbar() {
   return (
     <section className="navbar">
       <img src={Logo} alt="Logo" />
@@ -16,7 +17,7 @@ function Navbar () {
   </nav>
      
   </section>
-  )
+  );
 }
 
 export default Navbar;
